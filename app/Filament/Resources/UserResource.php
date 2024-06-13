@@ -42,7 +42,7 @@ class UserResource extends Resource
                         Forms\Components\DateTimePicker::make('email_verified_at'),
                         Forms\Components\TextInput::make('password')
                             ->password()
-                            ->hidden('edit')
+//                            ->hidden('edit')
                             ->required(),
                     ]),
                 Section::make('Address Information')
